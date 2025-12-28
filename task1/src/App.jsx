@@ -15,7 +15,7 @@ function App() {
       <div>Hey! Click me as fast as you can!</div>
     </ShowAndHide> */}
     {/* <Parent /> */}
-    {<ItemParent />}
+    {/* {<ItemParent />} */}
     </>
   )
 }

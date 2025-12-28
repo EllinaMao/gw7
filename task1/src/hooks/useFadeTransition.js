@@ -4,11 +4,13 @@ export function useFadeTransition(duration = 500, delay = 10) {
     const [shouldRender, setShouldRender] = useState(false);
     const [isVisible, setIsVisible] = useState(false);
     const timeoutId = useRef(null);
+    
     const clear = () => {
         if (timeoutId.current) {
             clearTimeout(timeoutId.current);
         }
     }
+
     useEffect(() => {
         return () => {
             clear();
