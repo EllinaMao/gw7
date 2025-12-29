@@ -4,6 +4,7 @@ import CounterFix from './components/CounterFix'
 import Parent from './components/DifficultRelationsOfParentsAndChild/Parent'
 import WeatherContainer from './components/WeatherProgram/WeatherContainer'
 import ItemParent from './components/HundredItemsInThisHouse!/ItemParent'
+import LoginControl from './components/LoginControl/LoginControl'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     </ShowAndHide> */}
     {/* <Parent /> */}
     {/* {<ItemParent />} */}
+    <LoginControl />
     </>
   )
 }
